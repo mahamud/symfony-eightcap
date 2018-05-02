@@ -39,7 +39,6 @@ class ContentController extends Controller
     public function detailAction($post_id){
         $repository = $this->getDoctrine()->getRepository(Post::class);
         $post = $repository->findOneBy(array('id' => $post_id)); //Limit to 1 record
-        //echo '<pre>';print_r($post);echo '</pre>';
         return $this->render('detail.html.twig', array(
             'post' => $post,
         ));
