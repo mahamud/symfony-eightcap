@@ -1,5 +1,5 @@
-Symfony Standard Edition
-========================
+Symfony Eightcap
+================
 
 Notes:
 Framework Used : Symfony 2.8
